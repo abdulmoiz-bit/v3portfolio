@@ -1,0 +1,57 @@
+.projects {
+  height: min-content;
+  padding-top: 6rem;
+
+  &__sub-section{
+    
+  }
+  &__heading{
+    display: none;
+   } 
+}
+
+.project{
+  padding-top: 3rem;
+  &__image {
+  }
+
+  &__info {
+    &-heading {
+      font-size: 32px;
+    }
+    &-text {
+      margin-top: 1rem;
+      line-height: 1.6rem;
+    }
+  
+    &-skills {
+      margin-top: 1.2rem;
+      display: flex;
+      flex-wrap: wrap;
+      gap: 2rem;
+      li{
+        color: rgb(121, 206, 121);
+        
+      }
+    }
+  }
+}
+.project:hover{
+  /*background-color: rgba(245, 245, 249, .1);*/
+  cursor: pointer;
+}
+
+
+.allprojects__button {
+  margin-top: 3rem;
+}
+
+@media screen and (max-width: 920px) {
+  .projects {
+    &__heading {
+      display: block;
+      font-size: 20px;
+      font-weight: 500;
+    }
+  }
+}

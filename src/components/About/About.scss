@@ -1,0 +1,22 @@
+.about {
+  height: min-content;
+  &__sub-section {
+  }
+  &__heading {
+    display: none;
+  }
+  &__text {
+    line-height: 2rem;
+    padding-top: 3rem;
+  }
+}
+
+@media screen and (max-width: 920px) {
+  .about {
+    &__heading {
+      display: block;
+      font-size: 20px;
+      font-weight: 500;
+    }
+  }
+}
